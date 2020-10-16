@@ -63,8 +63,12 @@
 	padding: 0px;
 	margin: 0px;
 }
+li {
+	list-style: none;
+}
 a {
 	text-decoration: none;
+	color: inherit;
 }
 img {
 	border: 0px;
@@ -94,12 +98,18 @@ html[dir=rtl] {
 }
 #topBarMenu {
 	float: left;
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+#topBarMenu li:last-child {
+	border-left: 0px;
 }
 #topBarMenu li {
-	display: inline-block;
-	padding-right: 6px;
-	padding-left: 6px;
-	border-left: 1px solid white;
+	float: right;
+	padding-right: 11px;
+	padding-left: 11px;
+	border-left: 1px solid #030a33;
+	line-height: 15px;
 }
 #topBarMenu li:hover {
 	color: #ffa800;
@@ -118,17 +128,45 @@ html[dir=rtl] {
 	width: 100%;
 	float: right;
     border-bottom: 1px solid #eee;
+    height: 65px;
 }
 #navMenu {
 	float: right;
+	height: 65px;
+}
+#navMenu li a {
+	padding-left: 17px;
+	padding-right: 17px;
 	padding-top: 6px;
 	padding-bottom: 6px;
+	line-height: 63px;
 }
 #navMenu li {
-	display: inline-block;
-	padding: 12px;
-	margin-left: 5px;
-	margin-right: 5px;
+	height: 63px;
+	float: right;
+	border-bottom: 2px solid transparent;
+}
+#navMenu li:hover {
+	color: #2A45E0;
+	border-bottom: 2px solid #2A45E0;
+}
+#navMenu li:hover ul {
+	display: block;
+}
+#navMenu li ul {
+	display: none;
+	position: absolute;
+	background: yellow;
+	width: calc(100% - 12px);
+	padding: 6px;
+	height: auto;
+	right: 0;
+	margin-top: 3px;
+    opacity: 0.97;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 #navButton {
 	float: left;
@@ -147,7 +185,61 @@ html[dir=rtl] {
 	border-color: #ffad0f;
     color: #ffad0f;
 }
+.button-header.orange:hover {
+	background: #ffad0f;
+	color: white;
+}
 .button-header.green {
     border-color: #2ecc71;
     color: #2ecc71;
+}
+.button-header.green:hover {
+    background: #2ecc71;
+    color: white;
+}
+.navMenuRow {
+	float: right;
+	width: 100%;
+}
+.navMenuColumn {
+	width: 25%;
+	float: right;
+}
+.navMenuTitle {
+	width: 100%;
+	float: right;
+	margin-bottom: 15px;
+}
+.navMenuTitle i {
+	float: right;
+}
+.navMenuTitle h3 {
+	float: right;
+	line-height: 15px;
+}
+.navMenuTitle p {
+	width: 100%;
+	display: inline-block;
+	color: gray;
+}
+.navMenuColumn li {
+	width: 100%;
+	margin-right: 25px;
+	list-style: disc;
+	color: #423f3f;
+	padding: 0px !important;
+	margin: 0px !important;
+	margin-right: 25px !important;
+	line-height: normal !important;
+	height: auto !important;
+	border-bottom: 0px !important;
+}
+.navMenuColumn a {
+	padding: 0px !important;
+	line-height: normal !important;
+}
+.navMenuColumn li:hover {
+	color: #2A45E0;
+	border-bottom: 0px !important;
+	/*margin-right: 30px !important;*/
 }
