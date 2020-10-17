@@ -145,7 +145,7 @@ html[dir=rtl] {
 	line-height: 63px;
 }
 #navMenu li {
-	height: 66px;
+	height: 65px;
 	float: right;
 	border-bottom: 2px solid transparent;
 }
@@ -164,7 +164,7 @@ html[dir=rtl] {
 	padding: 6px;
 	height: auto;
 	right: 0;
-	margin-top: 3px;
+	margin-top: 2px;
     opacity: 0.97;
     background-color: #fff;
     border-bottom: 1px solid #eee;
