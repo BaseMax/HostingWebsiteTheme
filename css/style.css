@@ -1,61 +1,61 @@
-@import url("css/all.min.css");
+@import url("all.min.css");
 @font-face {
 	font-family: Vazir;
-	src: url('webfonts/Vazir-Medium-FD.eot');
-	src: url('webfonts/Vazir-Medium-FD.eot?#iefix') format('embedded-opentype'),
-		 url('webfonts/Vazir-Medium-FD-FD.woff2') format('woff2'),
-		 url('webfonts/Vazir-Medium-FD.woff') format('woff'),
-		 url('webfonts/Vazir-Medium-FD.ttf') format('truetype');
+	src: url('../font/Vazir-Medium-FD.eot');
+	src: url('../font/Vazir-Medium-FD.eot?#iefix') format('embedded-opentype'),
+		 url('../font/Vazir-Medium-FD-FD.woff2') format('woff2'),
+		 url('../font/Vazir-Medium-FD.woff') format('woff'),
+		 url('../font/Vazir-Medium-FD.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: Vazir;
-	src: url('webfonts/Vazir-Bold-FD.eot');
-	src: url('webfonts/Vazir-Bold-FD.eot?#iefix') format('embedded-opentype'),
-		 url('webfonts/Vazir-Bold-FD-FD.woff2') format('woff2'),
-		 url('webfonts/Vazir-Bold-FD.woff') format('woff'),
-		 url('webfonts/Vazir-Bold-FD.ttf') format('truetype');
+	src: url('../font/Vazir-Bold-FD.eot');
+	src: url('../font/Vazir-Bold-FD.eot?#iefix') format('embedded-opentype'),
+		 url('../font/Vazir-Bold-FD-FD.woff2') format('woff2'),
+		 url('../font/Vazir-Bold-FD.woff') format('woff'),
+		 url('../font/Vazir-Bold-FD.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 @font-face {
 	font-family: Vazir;
-	src: url('webfonts/Vazir-Black-FD.eot');
-	src: url('webfonts/Vazir-Black-FD.eot?#iefix') format('embedded-opentype'),
-		 url('webfonts/Vazir-Black-FD-FD.woff2') format('woff2'),
-		 url('webfonts/Vazir-Black-FD.woff') format('woff'),
-		 url('webfonts/Vazir-Black-FD.ttf') format('truetype');
+	src: url('../font/Vazir-Black-FD.eot');
+	src: url('../font/Vazir-Black-FD.eot?#iefix') format('embedded-opentype'),
+		 url('../font/Vazir-Black-FD-FD.woff2') format('woff2'),
+		 url('../font/Vazir-Black-FD.woff') format('woff'),
+		 url('../font/Vazir-Black-FD.ttf') format('truetype');
 	font-weight: 900;
 	font-style: normal;
 }
 @font-face {
 	font-family: Vazir;
-	src: url('webfonts/Vazir-Medium-FD.eot');
-	src: url('webfonts/Vazir-Medium-FD.eot?#iefix') format('embedded-opentype'),
-		 url('webfonts/Vazir-Medium-FD-FD.woff2') format('woff2'),
-		 url('webfonts/Vazir-Medium-FD.woff') format('woff'),
-		 url('webfonts/Vazir-Medium-FD.ttf') format('truetype');
+	src: url('../font/Vazir-Medium-FD.eot');
+	src: url('../font/Vazir-Medium-FD.eot?#iefix') format('embedded-opentype'),
+		 url('../font/Vazir-Medium-FD-FD.woff2') format('woff2'),
+		 url('../font/Vazir-Medium-FD.woff') format('woff'),
+		 url('../font/Vazir-Medium-FD.ttf') format('truetype');
 	font-weight: 500;
 	font-style: normal;
 }
 @font-face {
 	font-family: Vazir;
-	src: url('webfonts/Vazir-Light-FD.eot');
-	src: url('webfonts/Vazir-Light-FD.eot?#iefix') format('embedded-opentype'),
-		 url('webfonts/Vazir-Light-FD-FD.woff2') format('woff2'),
-		 url('webfonts/Vazir-Light-FD.woff') format('woff'),
-		 url('webfonts/Vazir-Light-FD.ttf') format('truetype');
+	src: url('../font/Vazir-Light-FD.eot');
+	src: url('../font/Vazir-Light-FD.eot?#iefix') format('embedded-opentype'),
+		 url('../font/Vazir-Light-FD-FD.woff2') format('woff2'),
+		 url('../font/Vazir-Light-FD.woff') format('woff'),
+		 url('../font/Vazir-Light-FD.ttf') format('truetype');
 	font-weight: 300;
 	font-style: normal;
 }
 @font-face {
 	font-family: Vazir;
-	src: url('webfonts/Vazir-Thin-FD.eot');
-	src: url('webfonts/Vazir-Thin-FD.eot?#iefix') format('embedded-opentype'),
-		 url('webfonts/Vazir-Thin-FD-FD.woff2') format('woff2'),
-		 url('webfonts/Vazir-Thin-FD.woff') format('woff'),
-		 url('webfonts/Vazir-Thin-FD.ttf') format('truetype');
+	src: url('../font/Vazir-Thin-FD.eot');
+	src: url('../font/Vazir-Thin-FD.eot?#iefix') format('embedded-opentype'),
+		 url('../font/Vazir-Thin-FD-FD.woff2') format('woff2'),
+		 url('../font/Vazir-Thin-FD.woff') format('woff'),
+		 url('../font/Vazir-Thin-FD.ttf') format('truetype');
 	font-weight: 100;
 	font-style: normal;
 }
