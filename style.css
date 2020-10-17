@@ -249,6 +249,7 @@ html[dir=rtl] {
 	text-align: center;
 }
 #footer {
+	margin-top: 30px;
 	width: 100%;
 	height: auto;
 	float: right;
@@ -340,4 +341,14 @@ html[dir=rtl] {
 .footerColumn .dl-horizontal dd {
 	line-height: 22px;
 	/* width: 42%; */
+}
+#totalCustomers {
+	font-size: 18px;
+	background: #2EC297;
+	padding: 30px;
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	margin-top: 25px;
+	border-radius: 7px;
 }
