@@ -1,6 +1,6 @@
-# Asrez Website Theme
+# Hosting Website Theme
 
-![Asrez Website Theme](screen1.png)
+![Hosting Website Theme](screen1.png)
 
 ### Acknowledgments
 
