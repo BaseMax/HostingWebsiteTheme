@@ -1,63 +1,63 @@
 @import url("css/all.min.css");
 @font-face {
-    font-family: Vazir;
-    src: url('webfonts/Vazir-Medium-FD.eot');
-    src: url('webfonts/Vazir-Medium-FD.eot?#iefix') format('embedded-opentype'),
-         url('webfonts/Vazir-Medium-FD-FD.woff2') format('woff2'),
-         url('webfonts/Vazir-Medium-FD.woff') format('woff'),
-         url('webfonts/Vazir-Medium-FD.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+	font-family: Vazir;
+	src: url('webfonts/Vazir-Medium-FD.eot');
+	src: url('webfonts/Vazir-Medium-FD.eot?#iefix') format('embedded-opentype'),
+		 url('webfonts/Vazir-Medium-FD-FD.woff2') format('woff2'),
+		 url('webfonts/Vazir-Medium-FD.woff') format('woff'),
+		 url('webfonts/Vazir-Medium-FD.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
-    font-family: Vazir;
-    src: url('webfonts/Vazir-Bold-FD.eot');
-    src: url('webfonts/Vazir-Bold-FD.eot?#iefix') format('embedded-opentype'),
-         url('webfonts/Vazir-Bold-FD-FD.woff2') format('woff2'),
-         url('webfonts/Vazir-Bold-FD.woff') format('woff'),
-         url('webfonts/Vazir-Bold-FD.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+	font-family: Vazir;
+	src: url('webfonts/Vazir-Bold-FD.eot');
+	src: url('webfonts/Vazir-Bold-FD.eot?#iefix') format('embedded-opentype'),
+		 url('webfonts/Vazir-Bold-FD-FD.woff2') format('woff2'),
+		 url('webfonts/Vazir-Bold-FD.woff') format('woff'),
+		 url('webfonts/Vazir-Bold-FD.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
 }
 @font-face {
-    font-family: Vazir;
-    src: url('webfonts/Vazir-Black-FD.eot');
-    src: url('webfonts/Vazir-Black-FD.eot?#iefix') format('embedded-opentype'),
-         url('webfonts/Vazir-Black-FD-FD.woff2') format('woff2'),
-         url('webfonts/Vazir-Black-FD.woff') format('woff'),
-         url('webfonts/Vazir-Black-FD.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
+	font-family: Vazir;
+	src: url('webfonts/Vazir-Black-FD.eot');
+	src: url('webfonts/Vazir-Black-FD.eot?#iefix') format('embedded-opentype'),
+		 url('webfonts/Vazir-Black-FD-FD.woff2') format('woff2'),
+		 url('webfonts/Vazir-Black-FD.woff') format('woff'),
+		 url('webfonts/Vazir-Black-FD.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
 }
 @font-face {
-    font-family: Vazir;
-    src: url('webfonts/Vazir-Medium-FD.eot');
-    src: url('webfonts/Vazir-Medium-FD.eot?#iefix') format('embedded-opentype'),
-         url('webfonts/Vazir-Medium-FD-FD.woff2') format('woff2'),
-         url('webfonts/Vazir-Medium-FD.woff') format('woff'),
-         url('webfonts/Vazir-Medium-FD.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
+	font-family: Vazir;
+	src: url('webfonts/Vazir-Medium-FD.eot');
+	src: url('webfonts/Vazir-Medium-FD.eot?#iefix') format('embedded-opentype'),
+		 url('webfonts/Vazir-Medium-FD-FD.woff2') format('woff2'),
+		 url('webfonts/Vazir-Medium-FD.woff') format('woff'),
+		 url('webfonts/Vazir-Medium-FD.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
 }
 @font-face {
-    font-family: Vazir;
-    src: url('webfonts/Vazir-Light-FD.eot');
-    src: url('webfonts/Vazir-Light-FD.eot?#iefix') format('embedded-opentype'),
-         url('webfonts/Vazir-Light-FD-FD.woff2') format('woff2'),
-         url('webfonts/Vazir-Light-FD.woff') format('woff'),
-         url('webfonts/Vazir-Light-FD.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
+	font-family: Vazir;
+	src: url('webfonts/Vazir-Light-FD.eot');
+	src: url('webfonts/Vazir-Light-FD.eot?#iefix') format('embedded-opentype'),
+		 url('webfonts/Vazir-Light-FD-FD.woff2') format('woff2'),
+		 url('webfonts/Vazir-Light-FD.woff') format('woff'),
+		 url('webfonts/Vazir-Light-FD.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
 }
 @font-face {
-    font-family: Vazir;
-    src: url('webfonts/Vazir-Thin-FD.eot');
-    src: url('webfonts/Vazir-Thin-FD.eot?#iefix') format('embedded-opentype'),
-         url('webfonts/Vazir-Thin-FD-FD.woff2') format('woff2'),
-         url('webfonts/Vazir-Thin-FD.woff') format('woff'),
-         url('webfonts/Vazir-Thin-FD.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
+	font-family: Vazir;
+	src: url('webfonts/Vazir-Thin-FD.eot');
+	src: url('webfonts/Vazir-Thin-FD.eot?#iefix') format('embedded-opentype'),
+		 url('webfonts/Vazir-Thin-FD-FD.woff2') format('woff2'),
+		 url('webfonts/Vazir-Thin-FD.woff') format('woff'),
+		 url('webfonts/Vazir-Thin-FD.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
 }
 * {
 	padding: 0px;
@@ -122,16 +122,16 @@ html[dir=rtl] {
 	float: right;
 	padding-top: 35px;
 	padding-bottom: 35px;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
 }
 #headerLogo {
 }
 #nav {
 	width: 100%;
 	float: right;
-    border-bottom: 1px solid #eee;
-    height: 65px;
+	border-bottom: 1px solid #eee;
+	height: 65px;
 }
 #navMenu {
 	float: right;
@@ -159,17 +159,16 @@ html[dir=rtl] {
 #navMenu li ul {
 	display: none;
 	position: absolute;
-	background: yellow;
 	width: calc(100% - 12px);
 	padding: 6px;
 	height: auto;
 	right: 0;
 	margin-top: 2px;
-    opacity: 0.97;
-    background-color: #fff;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 20px;
-    padding-top: 20px;
+	opacity: 0.97;
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 40px;
+	padding-top: 40px;
 }
 #navButton {
 	float: left;
@@ -178,27 +177,27 @@ html[dir=rtl] {
 }
 .button-header {
 	float: right;
-    padding: 8px;
+	padding: 8px;
 	text-align: center;
-    margin-left: 20px;
-    border: 1px solid;
-    border-radius: 5px;
+	margin-left: 20px;
+	border: 1px solid;
+	border-radius: 5px;
 }
 .button-header.orange {
 	border-color: #ffad0f;
-    color: #ffad0f;
+	color: #ffad0f;
 }
 .button-header.orange:hover {
 	background: #ffad0f;
 	color: white;
 }
 .button-header.green {
-    border-color: #2ecc71;
-    color: #2ecc71;
+	border-color: #2ecc71;
+	color: #2ecc71;
 }
 .button-header.green:hover {
-    background: #2ecc71;
-    color: white;
+	background: #2ecc71;
+	color: white;
 }
 .navMenuRow {
 	float: right;
@@ -317,28 +316,28 @@ html[dir=rtl] {
 }
 .footerSupportItem i {
 	float: right;
-    margin-left: 15px;
+	margin-left: 15px;
 }
 .footerColumn .phone {
-    font-size: 30px;
-    background: #0C1A50;
-    padding: 25px 23px 25px 23px;
-    color: #31438C;
-    border-radius: 3px;
+	font-size: 30px;
+	background: #0C1A50;
+	padding: 25px 23px 25px 23px;
+	color: #31438C;
+	border-radius: 3px;
 }
 .footerColumn .dl-horizontal {
-    color: #fff;
-    text-align: right;
-    font-size: 11px;
-    margin-top: 6px;
+	color: #fff;
+	text-align: right;
+	font-size: 11px;
+	margin-top: 6px;
 }
 .footerColumn .dl-horizontal dt {
-    line-height: 15px;
-    margin-top: 3px;
-    float: right;
-    padding-left: 10px;
+	line-height: 15px;
+	margin-top: 3px;
+	float: right;
+	padding-left: 10px;
 }
 .footerColumn .dl-horizontal dd {
-    line-height: 22px;
-    /* width: 42%; */
+	line-height: 22px;
+	/* width: 42%; */
 }
