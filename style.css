@@ -62,6 +62,9 @@
 * {
 	padding: 0px;
 	margin: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 li {
 	list-style: none;
@@ -142,7 +145,7 @@ html[dir=rtl] {
 	line-height: 63px;
 }
 #navMenu li {
-	height: 63px;
+	height: 66px;
 	float: right;
 	border-bottom: 2px solid transparent;
 }
@@ -242,4 +245,100 @@ html[dir=rtl] {
 	color: #2A45E0;
 	border-bottom: 0px !important;
 	/*margin-right: 30px !important;*/
+}
+.center {
+	text-align: center;
+}
+#footer {
+	width: 100%;
+	height: auto;
+	float: right;
+	background: #031043;
+	color: #999CA9;
+}
+#footerRow {
+	width: 100%;
+	height: auto;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 15px;
+} 
+.footerColumn {
+	width: 31%;
+	margin-left: 1%;
+	margin-right: 1%;
+	float: right;
+}
+.footerColumn h6 {
+	font-size: 16px;
+	border-bottom: 1px solid #31438c;
+	padding-bottom: 6px;
+}
+.footerColumn ul {
+	margin-right: 25px;
+}
+.footerContent {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.footerColumn ul li {
+	color: white;
+	font-size: 14px;
+	list-style: disc;
+}
+#footerBottom {
+	width: 100%;
+	height: auto;
+	float: right;
+	background: #020A2B;
+	color: white;
+}
+.footerPadding {
+	padding: 12px;
+}
+#footerSocials {
+	float: left;
+}
+#footerSocials li {
+	display: inline-block;
+	margin-left: 12px;
+	margin-right: 12px;
+	color: #999CA9;
+	font-size: 9px;
+}
+#footerSocials li:hover {
+	color: white;
+}
+.footerColumn .footerSupportItem {
+	width: 100%;
+	float: right;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.footerSupportItem i {
+	float: right;
+    margin-left: 15px;
+}
+.footerColumn .phone {
+    font-size: 30px;
+    background: #0C1A50;
+    padding: 25px 23px 25px 23px;
+    color: #31438C;
+    border-radius: 3px;
+}
+.footerColumn .dl-horizontal {
+    color: #fff;
+    text-align: right;
+    font-size: 11px;
+    margin-top: 6px;
+}
+.footerColumn .dl-horizontal dt {
+    line-height: 15px;
+    margin-top: 3px;
+    float: right;
+    padding-left: 10px;
+}
+.footerColumn .dl-horizontal dd {
+    line-height: 22px;
+    /* width: 42%; */
 }
