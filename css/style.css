@@ -1,4 +1,4 @@
-@import url("all.min.css");
+@import url("css/all.min.css");
 @font-face {
 	font-family: Vazir;
 	src: url('../font/Vazir-Medium-FD.eot');
@@ -351,4 +351,106 @@ html[dir=rtl] {
 	margin: auto;
 	margin-top: 25px;
 	border-radius: 7px;
+}
+button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 174, 96);
+    height: 35px;
+    width: 180px;
+    border-radius: 6px;
+    border: 1px solid rgb(39, 174, 96);
+    cursor: pointer;
+}
+#customPageContent {
+	width: 83%;
+	float: left;
+	margin-right: 2%;
+}
+#customPageSidebar {
+	width: 15%;
+	float: right;
+}
+#customPage h3 {
+	text-align: right;
+	font-size: 14px;
+	color: #2A45E0;
+	margin-top: 40px;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.setpl .input-group a {
+    text-align: center;
+    padding: 15px 0;
+    white-space: nowrap;
+    float: right;
+    margin-top: 0px;
+    color: #FFFFFF;
+    width: 100%;
+}
+ul.menu-list-numberic li {
+    background: #95a5a6;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    color: white;
+    line-height: 35px;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+ul.menu-list-numberic li span {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+    background: #7f8c8d;
+    border: 0px;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 0 20px;
+    min-width: 54px;
+    margin-left: 8px;
+}
+.domain-search-blue-box {
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    box-shadow: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    min-height: 20px;
+    padding: 19px;
+}
+
+.domain-search-blue-box .form-control {
+    position: relative;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    display: -moz-inline-stack;
+    display: inline-block;
+    color: #626262;
+    outline: 0;
+    background: #fff;
+    height: 36px;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 13px;
+}
+.domain-search-blue-box .form-control {
+    position: relative;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    display: -moz-inline-stack;
+    display: inline-block;
+    color: #626262;
+    outline: 0;
+    background: #fff;
+    height: 36px;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 13px;
 }
